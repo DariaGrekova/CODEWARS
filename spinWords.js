@@ -25,3 +25,12 @@ function spinWords(string) {
 }
 
 spinWords('мама я в Майами');
+
+
+// Рефакторинг
+
+function spinWordsB (string) {
+  return string.split(' ').map(function (item) {
+    return (item.length >= 5) ? item.split('').reverse().join('') : item;
+  }).join(' ');
+}
