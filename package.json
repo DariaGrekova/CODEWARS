@@ -1,0 +1,23 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "Тренируюсь решать задачи по JavaScript",
+  "main": "findDivisors.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaGrekova/CODEWARS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariaGrekova/CODEWARS/issues"
+  },
+  "homepage": "https://github.com/DariaGrekova/CODEWARS#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
